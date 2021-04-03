@@ -1,0 +1,10 @@
+^C:\USERS\MCTAI\DOCUMENTS\VST3 PROJECTS\IR_DELAY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mctai/Documents/VST3 Projects/iR_Delay" "-BC:/Users/mctai/Documents/VST3 Projects/iR_Delay/build" --check-stamp-file "C:/Users/mctai/Documents/VST3 Projects/iR_Delay/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
