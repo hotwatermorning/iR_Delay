@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VST_SDK\VST3_SDK\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_guieditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\iR_Filters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\iRGUILib\iR_GUIBase.cpp">
+      <Filter>iRGUILib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_cids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_paramids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\source\iR_Delay_guieditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iR_Delay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iR_Filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iR_RMSDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iR_Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\RingBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iRGUILib\iR_GUIBase.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iRGUILib\iR_GUIKnob.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iRGUILib\iR_GUISwitch.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iRGUILib\iR_GUIMenu.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iRGUILib\iR_GUIField.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iRGUILib\iR_GUIHeader.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\iRGUILib\iR_GUIHeaderMenu.h">
+      <Filter>iRGUILib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\resource\iR_Delay_resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="resource.rc">
+      <Filter>iRGUILib</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E50C9E14-D3B7-34D9-B206-DF1996097331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{661E1637-C3AD-3918-8C7F-EC89C5E0F906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iRGUILib">
+      <UniqueIdentifier>{8038cbdc-07b4-4432-8d0e-825d5db24073}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\source\iRGUILib\resource\knob.png" />
+  </ItemGroup>
+</Project>

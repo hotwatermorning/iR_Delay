@@ -1,0 +1,81 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+KNOB_START_CENTER PNG "..\\source\\iRGUILib\\resource\\knob_start_center.png"
+KNOB_START_LEFT   PNG "..\\source\\iRGUILib\\resource\\knob_start_left.png"
+KNOB_START_RIGHT  PNG "..\\source\\iRGUILib\\resource\\knob_start_right.png"
+SWITCH            PNG "..\\source\\iRGUILib\\resource\\switch.png"
+MENU_SHORT        PNG "..\\source\\iRGUILib\\resource\\menu_short.png"
+MENU_SHORT_CLICK  PNG "..\\source\\iRGUILib\\resource\\menu_short_click.png"
+MENU_MIDIUM       PNG "..\\source\\iRGUILib\\resource\\menu_midium.png"
+MENU_MIDIUM_CLICK PNG "..\\source\\iRGUILib\\resource\\menu_midium_click.png"
+MENU_LONG         PNG "..\\source\\iRGUILib\\resource\\menu_long.png"
+MENU_LONG_CLICK   PNG "..\\source\\iRGUILib\\resource\\menu_long_click.png"
+HEADER_LOGO       PNG "..\\source\\iRGUILib\\resource\\header_logo.png"
+HEADER_MENU       PNG "..\\source\\iRGUILib\\resource\\header_menu.png"
+HEADER_MENU_CLICK PNG "..\\source\\iRGUILib\\resource\\header_menu_click.png"
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

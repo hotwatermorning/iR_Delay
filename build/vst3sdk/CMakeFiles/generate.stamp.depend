@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakePrintHelpers.cmake
+C:/VST_SDK/VST3_SDK/CMakeLists.txt
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_AAXSupport.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddCommonOptions.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddSMTGLibrary.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddVST3Library.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddVST3Options.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_Bundle.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_CodeSign.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_ConfigureCmakeGenerator.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_CoreAudioSupport.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_CustomModuleTarget.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_DetectPlatform.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_ExportedSymbols.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_Global.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_PlatformIOS.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_PlatformToolset.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_Platform_Windows.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_PrefixHeader.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_SetupVST3LibraryDefaultPath.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_UniversalBinary.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_VST3_SDK.cmake
+C:/VST_SDK/VST3_SDK/cmake/modules/SMTG_VstGuiSupport.cmake

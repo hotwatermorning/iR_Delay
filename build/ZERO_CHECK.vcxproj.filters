@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mctai\Documents\VST3 Projects\iR_Delay\build\CMakeFiles\6012c85c2f2422b951321904b88b5923\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{242015E9-DDDC-3055-9E63-D3E673A86B06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
