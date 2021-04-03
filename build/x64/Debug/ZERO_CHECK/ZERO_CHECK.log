@@ -1,0 +1,15 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/mctai/Documents/VST3 Projects/iR_Delay/build/vst3sdk/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/VST_SDK/VST3_SDK/CMakeLists.txt'
+    is newer than 'C:/Users/mctai/Documents/VST3 Projects/iR_Delay/build/vst3sdk/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.19042.
+  -- SMTG_PLUGIN_TARGET_PATH is set to : C:/Program Files/Common Files/VST3
+  -- Could NOT find EXPAT (missing: EXPAT_LIBRARY EXPAT_INCLUDE_DIR) 
+  -- VSTGUI will use the embedded Expat package!
+  -- SMTG_VSTGUI_ROOT is set to : C:/VST_SDK/VST3_SDK
+  -- SMTG_AAX_SDK_PATH is not set. If you need it, please download the AAX SDK!
+  -- Setup running validator for iR_Delay
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/mctai/Documents/VST3 Projects/iR_Delay/build

@@ -1,0 +1,10 @@
+^C:\USERS\MCTAI\DOCUMENTS\VST3 PROJECTS\IR_DELAY\BUILD\CMAKEFILES\6012C85C2F2422B951321904B88B5923\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mctai/Documents/VST3 Projects/iR_Delay" "-BC:/Users/mctai/Documents/VST3 Projects/iR_Delay/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/mctai/Documents/VST3 Projects/iR_Delay/build/iR_Delay.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
