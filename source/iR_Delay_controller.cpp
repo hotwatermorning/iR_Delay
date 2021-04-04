@@ -222,6 +222,8 @@ tresult PLUGIN_API iR_DelayController::setComponentState(IBStream* state)
   IBStreamer streamer(state, kLittleEndian);
   if (!streamer.readBool(saved_bypass)) return kResultFalse;
   setParamNormalized(kBypassID, saved_bypass);
+  if (!streamer.readFloat(saved_output_gain)) return kResultFalse;
+  setParamNormalized(kOutputGainID, saved_output_gain);
 
   if (!streamer.readBool(saved_bpm_sync)) return kResultFalse;
   if (!streamer.readFloat(saved_beat_L)) return kResultFalse;
@@ -250,19 +252,18 @@ tresult PLUGIN_API iR_DelayController::setComponentState(IBStream* state)
   setParamNormalized(kHighCutID, saved_highcut);
   setParamNormalized(kLowCutID, saved_lowcut);
 
-  if (!streamer.readBool(saved_pingpong)) return kResultFalse;
   if (!streamer.readBool(saved_swap_channel)) return kResultFalse;
+  if (!streamer.readBool(saved_pingpong)) return kResultFalse;
   setParamNormalized(kEnablePingPongID, saved_pingpong);
   setParamNormalized(kEnableSwapChannelID, saved_swap_channel);
 
   if (!streamer.readFloat(saved_stereo_width)) return kResultFalse;
   if (!streamer.readFloat(saved_ducking)) return kResultFalse;
   if (!streamer.readFloat(saved_mix)) return kResultFalse;
-  if (!streamer.readFloat(saved_output_gain)) return kResultFalse;
+  
   setParamNormalized(kStereoWidthID, saved_stereo_width);
   setParamNormalized(kDuckingID, saved_ducking);
   setParamNormalized(kMixID, saved_mix);
-  setParamNormalized(kOutputGainID, saved_output_gain);
 
   if (view) view->updateUI();
   /**/
